@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Lato:wght@100&family=Roboto+Condensed:wght@100&family=Sevillana&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    width: 50%;
+}
+button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background: transparent;
+    cursor: pointer;
+}
+
+section.content h1{
+    font-size: 5rem;
+    font-family: 'Sevillana', cursive;
+    line-height: 80px;
+}
